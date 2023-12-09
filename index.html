@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&family=Sora:wght@300;400;500;600&display=swap" 
+        rel="stylesheet"
+    />
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <title>Judô de Piquete AJP</title>
+</head>
+<body>
+<aside class="sidebar">
+
+    <nav class="menu-nav">
+        <a href="#home">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">home</i>
+                    <span>Home</span>
+                </span>
+            </button>
+        </a>
+        <a href="#servicos">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">sports_kabaddi</i>
+                    <span>Serviços</span>
+                </span>
+            </button>
+        </a>
+        <a href="#">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">email</i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+        </a>
+        <a href="#local">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">person_pin_circle</i>
+                    <span>Localização</span>
+                </span>
+            </button>
+        </a>
+        <a href="#sobre">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">menu_book</i>
+                    <span>Sobre</span>
+                </span>
+            </button>
+        </a>
+        <a href="perfil.html" target="_blank">
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">person</i>
+                    <span>Perfil</span>
+                </span>
+            </button>
+        </a>
+    </nav>
+</aside>
+<main class="main-top" id="home">
+<div class="bg-home">
+    <header>
+        <nav class="header-content container">
+            <div class="header-icons" data-aos="fade-down">
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok fa-2x"></i>
+                </a>
+            </div>
+            <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                <img
+                    data-aos="flip-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1500" 
+                    src="assets/logojudo.png" 
+                    alt="Logo da barbearia" 
+                />
+            </div>
+            <div data-aos="fade-down">
+                <a class="header-button" 
+                    href="https://api.whatsapp.com/send?phone=5512992566918&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                    target="_blank">
+                    Fale Conosco
+                </a>
+            </div>
+
+        </nav>
+        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+            <h1>O JUDOCA NÃO SE APERFEIÇOA PARA LUTAR, LUTA PARA SE APERFEIÇOAR.</h1>
+            <P>Horário de funcionamento: 19:00 às 22:30</P>
+            <a href="#" 
+                class="button-contact" 
+                target="_blank">
+                Matricule-se
+            </a>
+        </main>
+    </header>
+</div>
+<section class="about" id="sobre">
+    <div class="container about-content">
+        <div data-aos="zoom-in" data-aos-delay="100">
+            <img 
+                src="assets/camp.png" 
+                alt="Campeões da AJP" 
+            />
+        </div>
+
+        <div class="about-description" data-aos="zoom-out-left" data-aos-delay="250">
+            <h2>Sobre</h2>
+            <p> Com quase 60 anos de existência, a Associação de Judo de Piquete (AJP) já formou muitos atletas e atualmente
+                na administração do Sensei João Carlos a AJP continua "LUTANDO" para formar bons judocas, ensinando as técnicas e
+                toda a disciplina que o judô propõe. Somos uma grande família e por isso fazemos questão de cuidar de todos com 
+                muito carinho e dedicação.
+            </p>
+            <p>Horário de Funcionamento: <strong>19:00</strong> às <strong>22:30</strong></p>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="servicos">
+    <div class="services-content container">
+        <h2>Serviços</h2>
+        <p>O judô é uma ferramenta importantíssima na construção do caráter de uma pessoa. Usando o judô de forma correta, podemos ajudar na formação de uma pessoa para virar uma pessoa de caráter e de respeito.
+            Não devemos esquecer que essa é a função verdadeira do judô, ajudar no desenvolvimento humano.</p>
+    </div>
+    <section class="haircuts">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+            <img 
+                src="assets/blacks.jpg" 
+                alt="Sensei João Carlos e Herson" 
+            />
+            <div class="haircut-info">
+                <strong>Faixas Pretas AJP</strong>
+                <button>
+                    2023
+                </button>
+            </div>
+        </div>
+
+        <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+            <img 
+                src="assets/sensei.jpg" 
+                alt="Nossos Faixas Pretas" 
+            />
+            <div class="haircut-info">
+                <strong>Sensei João Carlos e Herson</strong>
+                <button>
+                    2023
+                </button>
+            </div>
+        </div>
+
+        <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+            <img 
+                src="assets/turma1.jpg" 
+                alt="Turma do segundo treino" 
+            />
+            <div class="haircut-info">
+                <strong>Turma do 2º treino </strong>
+                <button>
+                    2023
+                </button>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div class="services" id="local">
+    <h2> Venha nos conhecer</h2>
+</div>
+<iframe
+width="100%" 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.2560169860267!2d-45.18694692470258!3d-22.606912927222826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba4a7f7d6e0f%3A0xe7932fdec853af43!2zQXNzb2NpYcOnw6NvIGRlIEp1ZMO0IGRlIFBpcXVldGU!5e0!3m2!1spt-BR!2sbr!4v1702082975454!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+        </div>
+
+        <div>
+            <img 
+                src="assets/logojudo.png" 
+                alt="Logo barbearia"
+            />
+        </div>
+            <p>Copyright 2023 | AJP Piquete - Todos os direitos reservados.</p>
+    </footer>
+
+    <a 
+    href="https://api.whatsapp.com/send?phone=5512992566918&text=Quero%20fazer%20um%20agendamento%20hoje!"
+    class="btn-whatsapp"
+    target="_blank"
+    data-aos="zoom-in-up" data-aos-delay="400"
+    >
+    <img src="assets/whatssapp.svg" alt="Botão whatssapp">
+    <span class="tooltip-text">Fale Conosco</span>
+    </a>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

@@ -247,7 +247,7 @@ i {
 }
 
 .haircut img:hover {
-  transform: scale(1.2);
+  transform: scale(0.95);
   z-index: 1;
 }
 
@@ -333,6 +333,10 @@ i {
     max-width: 64px;
   }
 }
+.logoBotton {
+  width: 150px;
+}
+
 .sidebar {
   position: fixed;
   display: flex;

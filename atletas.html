@@ -24,9 +24,27 @@
     
     <link rel="stylesheet" href="style.css" />
 
-    <title>Meu Perfil Profissional</title>
+    <title>Atletas da AJP</title>
 </head>
 <body>
-    <h1 class="title">Perfil Profissional</h1>
+    <h1 class="title">Ficha Técnica dos Atletas da AJP</h1>
+    <section class="allSection">
+        <div class="imgs">
+            <img src="assets/helenaGuara.jpg" alt="" onclick="mostrarCamada('Helena participou em 5 torneios e ganhou 4 medalhas de 1º lugar e 1 medalha de 2º lugar')">
+            <p>Helena Xavier</p>
+
+             <!-- Camada (layer) oculta inicialmente -->
+            <div class="layer" id="camada" onclick="fecharCamada()">
+            <!-- Texto da camada -->
+            <p id="textoCamada"></p>
+            </div>
+            </div>
+        
+        <div>
+            <img src="assets/os2.jpg" alt="" onclick="mostrarCamada('Benício participou em 5 torneios e ganhou 3 medalhas de 3º lugar')">
+            <p>Benício Xavier</p>
+        </div>
+    </section>
+    <script src="scriptAtletas.js"></script>
 </body>
 </html>

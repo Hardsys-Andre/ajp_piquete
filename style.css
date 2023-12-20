@@ -421,8 +421,63 @@ i {
 }
 .title {
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+}
+.allSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  flex: 1;
+}
+.allSection img {
+  width: 200px;
+  padding: 8px;
+  cursor: pointer;
+}
+.allSection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 8px;
+}
+.allSection p {
+  color: white;
+  text-align: center;
+}
+.allSection .layer {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(211, 64, 64, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #d94140;
+  z-index: 2;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .allSection img {
+    width: 150px;
+  }
+  .allSection p {
+    font-size: 12px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
